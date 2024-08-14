@@ -1,0 +1,48 @@
+.transport-management {
+    padding: 20px;
+  }
+  
+  .transport-management h2 {
+    margin-bottom: 20px;
+  }
+  
+  .transport-management-actions {
+    margin-bottom: 20px;
+  }
+  
+  .action-button {
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .action-button:hover {
+    background-color: darkblue;
+  }
+  
+  .transports-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .transports-table th, .transports-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .transports-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .edit-link {
+    color: blue;
+    text-decoration: none;
+  }
+  
+  .edit-link:hover {
+    text-decoration: underline;
+  }
+  

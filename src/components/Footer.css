@@ -1,0 +1,22 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px 20px;
+  color: black;
+  width: 100%;
+}
+
+.social-media a {
+  margin-right: 15px;
+}
+
+.social-media img {
+  width: 24px;
+  height: 24px;
+}
+
+.copyright {
+  font-size: 14px;
+}

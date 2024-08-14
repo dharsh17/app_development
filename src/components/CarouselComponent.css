@@ -1,0 +1,55 @@
+.carousel-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px; /* Space between the About section and the carousel */
+  margin: 40px auto 0;
+  max-width: 1200px; /* Adjust the max-width as needed */
+}
+
+.carousel {
+  flex: 1;
+  max-width: 1000px; /* Ensure the carousel matches the About section width */
+  margin-left: 20px; /* Space between the carousel and the About section */
+}
+
+.carousel-inner {
+  height: 300px; /* Adjust the height of the carousel */
+  width: 100%; /* Ensure it takes the full width of the parent */
+}
+
+.carousel-item {
+  height: 100%; /* Ensure images fill the carousel height */
+}
+
+.carousel-item img {
+  width: 100%; /* Ensure images fill the carousel width */
+  height: 100%; /* Ensure images fill the carousel height */
+  object-fit: cover; /* Maintain aspect ratio */
+}
+
+.about-company {
+  flex: 1;
+  padding: 20px;
+  background-color: #f9f9f9; /* Light background for the About section */
+  border-radius: 8px; /* Rounded corners for visual appeal */
+  height: 300px; /* Match the height of the carousel */
+  max-width: 600px; /* Match the maximum width of the carousel */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center content vertically */
+  text-align: left; /* Align text to the left */
+  margin-right: 20px; /* Space between the About section and the carousel */
+}
+
+.about-company h2 {
+  margin-bottom: 15px;
+  font-family: 'Roboto', sans-serif; /* Apply the imported font */
+  font-size: 2.5rem; /* Adjust size as needed */
+  font-weight: 700; /* Bold weight */
+  color: #333; /* Adjust color if needed */
+}
+
+.about-company p {
+  line-height: 1.6; /* Improve readability */
+}

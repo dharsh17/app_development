@@ -1,0 +1,79 @@
+.order-management {
+  padding: 20px;
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.order-form, .order-list {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.order-form input {
+  display: block;
+  width: 100%;
+  margin: 5px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.order-form button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.order-form button:hover {
+  background-color: #1976d2;
+}
+
+.order-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.order-list li {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
+.order-list li button {
+  margin-right: 5px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.order-list li button:first-child {
+  background-color: #ff9800;
+  color: white;
+}
+
+.order-list li button:first-child:hover {
+  background-color: #f57c00;
+}
+
+.order-list li button:last-child {
+  background-color: #f44336;
+  color: white;
+}
+
+.order-list li button:last-child:hover {
+  background-color: #d32f2f;
+}

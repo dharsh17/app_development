@@ -1,0 +1,196 @@
+/* General Styles for Careers Page */
+.careers-page {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.careers-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.careers-header h5 {
+    font-size: 1.2em;
+    color: #555;
+}
+
+.featured-roles {
+    margin-bottom: 40px;
+}
+
+.featured-roles h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.role-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.role-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    position: relative;
+    transition: transform 0.2s, box-shadow 0.2s;
+    max-width: 900px; /* Increased width to make the box wider */
+    margin: 0 auto; /* Center horizontally */
+    font-size: 20px;
+}
+
+.role-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+.role-card h3 {
+    margin-top: 0;
+}
+
+.role-card p {
+    margin: 5px 0;
+}
+
+/* Smaller explore button */
+.explore-button {
+    margin-top: 10px;
+    padding: 6px 5px; /* Reduced padding to make the button smaller */
+    font-size: 1em;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    max-width: 150px; /* Set a maximum width to keep the button size consistent */
+    display: inline-block; /* Ensures the button's width is controlled by max-width */
+    text-align: center; /* Centers text inside the button */
+}
+
+.explore-button:hover {
+    background-color: #0056b3;
+}
+
+.role-details {
+    margin-top: 20px;
+    max-width: 800px; /* Set a maximum width to make it larger */
+    margin-left: 100px; /* Center horizontally */
+    margin-right: 200px; /* Center horizontally */
+    padding: 20px; /* Add padding for better spacing */
+    background-color: #f9f9f9; /* Optional: Background color for better visibility */
+    border-radius: 8px; /* Optional: Rounded corners */
+}
+
+.role-details h4 {
+    font-size: 1.1em;
+    color: #333;
+}
+
+.role-details ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.employee-testimonials {
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.employee-testimonials h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.testimonial-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.testimonial-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-icon {
+    color: #ff9800;
+    font-size: 1.5em;
+}
+
+.testimonial-card p {
+    font-style: italic;
+}
+
+.testimonial-card footer {
+    text-align: right;
+    font-weight: bold;
+}
+
+/* Modal Styles */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 20px; /* Reduced padding */
+    width: 60%; /* Reduced width */
+    max-width: 500px; /* Reduced max-width */
+    position: relative;
+    font-family: 'Georgia', serif; /* Stylish italic font */
+    color: #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Smaller close button */
+.modal-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 1.4em;
+    color: #333;
+    cursor: pointer;
+    transition: transform 0.2s, color 0.2s; /* Added transition for smooth hover effect */
+}
+
+.modal-close:hover {
+    transform: scale(0.8); /* Reduce size on hover */
+    color: #ff0000; /* Change color on hover */
+}
+
+.modal-content h3 {
+    margin-top: 0;
+    font-size: 1.1em; /* Corrected font size */
+    font-weight: bold;
+    color: #007bff; /* Accent color */
+}
+
+.modal-content ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.modal-content li {
+    font-style: italic; /* Italicize list items */
+}

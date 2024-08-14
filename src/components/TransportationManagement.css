@@ -1,0 +1,114 @@
+.transportation-management {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+  
+  .services-section,
+  .user-details-form-container,
+  .billing-info {
+    margin-bottom: 20px;
+  }
+  
+  .services-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .services-description {
+    font-size: 16px;
+  }
+  
+  .get-started-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .get-started-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .user-details-form-container {
+    margin-top: 20px;
+  }
+  
+  .form-title {
+    font-size: 22px;
+  }
+  
+  .form-description {
+    margin-bottom: 10px;
+  }
+  
+  .user-details-form input,
+  .user-details-form select {
+    display: block;
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 100%;
+  }
+  
+  .user-details-form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .user-details-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .billing-info {
+    margin-top: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+  
+  .billing-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .billing-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .billing-date {
+    font-weight: bold;
+  }
+  
+  .billing-time {
+    font-weight: bold;
+  }
+  
+  .billing-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .billing-body {
+    margin-bottom: 20px;
+  }
+  
+  .billing-info-item {
+    margin-bottom: 10px;
+  }
+  
+  .billing-footer {
+    text-align: center;
+  }
+  
+  .billing-note {
+    font-style: italic;
+  }
+  

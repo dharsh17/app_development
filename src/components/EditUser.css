@@ -1,0 +1,33 @@
+.edit-user {
+    padding: 20px;
+  }
+  
+  .edit-user form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  .edit-user label {
+    margin-bottom: 10px;
+  }
+  
+  .edit-user input {
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .edit-user button {
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .edit-user button:hover {
+    background-color: darkblue;
+  }
+  

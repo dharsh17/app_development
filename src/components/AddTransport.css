@@ -1,0 +1,39 @@
+.add-transport {
+    padding: 20px;
+    padding-left: 250px;
+    padding-right:250px;
+  }
+  
+  .add-transport h2 {
+    margin-bottom: 20px;
+  }
+  
+  .add-transport form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .add-transport label {
+    margin-bottom: 10px;
+  }
+  
+  .add-transport input {
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: darkblue;
+  }
+  

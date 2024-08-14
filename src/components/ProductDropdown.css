@@ -1,0 +1,42 @@
+/* ProductDropdown.css */
+.product-dropdown {
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.dropdown-label {
+    display: block;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.dropdown {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    color: #333;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.dropdown:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.selected-product {
+    margin-top: 15px;
+    font-size: 1em;
+    color: #555;
+}

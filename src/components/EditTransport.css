@@ -1,0 +1,37 @@
+.edit-transport {
+    padding: 20px;
+  }
+  
+  .edit-transport h2 {
+    margin-bottom: 20px;
+  }
+  
+  .edit-transport form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .edit-transport label {
+    margin-bottom: 10px;
+  }
+  
+  .edit-transport input {
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: darkblue;
+  }
+  

@@ -1,0 +1,32 @@
+{
+  "users": [
+    {
+      "username": "geethu",
+      "email": "geethu@gmail.com",
+      "companyName": "geetha",
+      "password": "geethu",
+      "id": 1
+    },
+    {
+      "username": "abcd",
+      "email": "abcd@gmail.com",
+      "companyName": "abcdd",
+      "password": "abcd",
+      "id": 2
+    },
+    {
+      "username": "qwerty",
+      "email": "qwerty@gmail.com",
+      "companyName": "qwerty",
+      "password": "qwerty",
+      "id": 3
+    },
+    {
+      "username": "diya",
+      "email": "diya@gmail.com",
+      "companyName": "diyaa",
+      "password": "diya",
+      "id": 4
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+.add-user {
+    padding: 20px;
+  
+  }
+  
+  .add-user form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+    
+  }
+  
+  .add-user label {
+    margin-bottom: 10px;
+    
+  }
+  
+  .add-user input {
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .add-user button {
+    padding: 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+   
+  }
+  
+  .add-user button:hover {
+    background-color: darkblue;
+  }
+  

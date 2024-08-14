@@ -1,0 +1,54 @@
+/* Benefits.css */
+
+/* Container adjustments for uniform spacing */
+.container {
+    padding: 2rem 0;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: justify;
+    max-width: 1200px;
+  }
+  
+  /* Card adjustments for uniform size and spacing */
+  .card {
+    max-width: 300px;
+    margin: 15px auto; /* Adds uniform spacing around the cards */
+    transition: transform 0.3s ease;
+  }
+  
+  /* Adjust padding and font sizes inside the card body to reduce height */
+  .card-body {
+    padding: 0.5rem; /* Reduced padding */
+  }
+  
+  .card-body .d-flex {
+    margin-bottom: 0.5rem; /* Reduced bottom margin */
+  }
+  
+  .card-body h5 {
+    margin: 0 0 0.5rem 0.5rem; /* Adjusted margin to add gap below heading */
+    font-size: 1.1rem; /* Reduced font size */
+  }
+  
+  .card-body p {
+    margin: 0;
+    font-size: 0.9rem; /* Reduced font size */
+  }
+  
+  /* Hover animation for the bounce effect */
+  .card:hover {
+    animation: bounce 1s;
+  }
+  
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-10px);
+    }
+    60% {
+      transform: translateY(-5px);
+    }
+  }
+  

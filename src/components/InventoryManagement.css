@@ -1,0 +1,128 @@
+/* General styles for the Inventory Management component */
+.inventory-management {
+    font-family: 'Roboto', sans-serif; /* Stylish font */
+    padding: 20px;
+    padding-left: 200px; /* Adjusted padding for better alignment */
+    padding-right: 200px; /* Adjusted padding for better alignment */
+    background-color: #f0f2f5; /* Light background for contrast */
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+  
+  h1 {
+    color: #333;
+    font-size: 2.5rem; /* Larger title font size */
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    color: #444;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .quote {
+    font-size: 1.2rem;
+    font-style: italic;
+    color: #555;
+    background: #fff;
+    border-left: 4px solid #007bff; /* Stylish quote border */
+    padding: 10px;
+    margin: 20px 0;
+  }
+  
+  .inventory-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .inventory-form,
+  .inventory-list {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff; /* White background for form and list */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for elevation */
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  
+  .inventory-form input,
+  .inventory-form select {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 8px 16px; /* Adjusted padding */
+    font-size: 16px; /* Adjusted font size */
+    border: none;
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer;
+    margin-right: 10px; /* Space between buttons */
+  }
+  
+  button.add-item {
+    background-color: #007bff; /* Blue background */
+    color: white;
+  }
+  
+  button.add-item:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  button.cancel {
+    background-color: #6c757d; /* Grey background for cancel button */
+    color: white;
+  }
+  
+  button.cancel:hover {
+    background-color: #5a6268; /* Darker grey on hover */
+  }
+  
+  button.edit {
+    background-color: #ffc107; /* Yellow background */
+    color: white;
+  }
+  
+  button.edit:hover {
+    background-color: #e0a800; /* Darker yellow on hover */
+  }
+  
+  button.delete {
+    background-color: #dc3545; /* Red background */
+    color: white;
+  }
+  
+  button.delete:hover {
+    background-color: #c82333; /* Darker red on hover */
+  }
+  
+  .inventory-list {
+    border-top: 1px solid #ccc;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f8f9fa;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2; /* Alternating row colors */
+  }
+  

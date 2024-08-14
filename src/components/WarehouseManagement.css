@@ -1,0 +1,108 @@
+.warehouse-management {
+    padding: 20px;
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px; /* Add gap between the heading and boxes */
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.warehouses {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping if boxes exceed page width */
+    gap: 30px;
+    justify-content: center;
+    width: 100%; /* Ensure the containers fit the full width */
+    box-sizing: border-box; /* Include padding and border in width calculation */
+}
+
+.warehouse-box {
+    flex: 1 1 250px; /* Reduce the minimum width of the boxes */
+    max-width: 300px; /* Set maximum width to avoid excessive stretching */
+    height: 300px; /* Increase height for more space */
+    padding: 20px; /* Adjust padding for a smaller box */
+    border-radius: 12px; /* Slightly reduce border-radius */
+    background: linear-gradient(135deg, #ffffff, #e0f7fa); /* Gradient background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: 2px solid #2196f3; /* Border color */
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    display: flex; /* Add flexbox for alignment */
+    flex-direction: column; /* Column layout for content */
+    justify-content: flex-start; /* Align content from the top */
+}
+
+.warehouse-box:hover {
+    animation: jump 0.5s ease-in-out; /* Apply the jump animation on hover */
+}
+
+/* Jump animation for each box */
+@keyframes jump {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px); /* Adjust the jump height */
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.warehouse-box h2 {
+    margin: 0; /* Remove default margins */
+    font-size: 1.4em; /* Adjusted font size for better fit */
+    color: #2196f3; /* Color to match the border */
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+
+.warehouse-box .item-list {
+    flex: 1; /* Allow the item list to grow */
+    max-height: 160px; /* Adjust height for better spacing */
+    overflow-y: auto;
+    margin-top: 10px; /* Add space between heading and item list */
+    display: flex; /* Use flexbox to align items */
+    flex-direction: column; /* Stack items vertically */
+    gap: 8px; /* Space between items */
+}
+
+.warehouse-box .item-list ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.warehouse-box .item-list li {
+    background-color: #e8f5e9;
+    border: 1px solid #c8e6c9;
+    border-radius: 8px; /* Reduced border-radius */
+    padding: 10px; /* Adjusted padding for item area */
+    display: flex;
+    flex-direction: column; /* Stack content vertically */
+    align-items: flex-start; /* Align text to the left */
+}
+
+.warehouse-box .item-list li strong {
+    color: #388e3c;
+    margin-bottom: 5px; /* Add space between name and details */
+}
+
+.warehouse-box .item-list li span {
+    color: #090505; /* Consistent text color */
+    display: block; /* Ensures each detail is on a new line */
+}
+
+.warehouse-box .no-items {
+    text-align: center;
+    color: #0b0505;
+    font-style: italic;
+    margin-top: 10px; /* Space above no-items */
+}
+
+/* Date specific styling */
+.warehouse-box .item-list li .date {
+    color: #140909; /* Lighter color for the date */
+    margin-top: 5px; /* Space between the item details and date */
+}

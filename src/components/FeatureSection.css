@@ -1,0 +1,139 @@
+/* Main content wrapper to ensure separation from the footer */
+.main-content {
+  padding-bottom: 120px; /* Ensure enough space between content and footer */
+}
+
+/* Feature Section */
+.feature-section {
+  padding: 20px;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 80px; /* Space between feature section and footer */
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.feature-section h2 {
+  font-size: 2em;
+  color: black;
+}
+
+.feature-section h3 {
+  color: orange;
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.feature-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.feature-card {
+  position: relative; /* Required for the pseudo-elements */
+  border-left: 5px solid; /* Default border color, will be overridden */
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 15px; /* Adjusted padding */
+  width: calc(25% - 20px); /* Adjusted width to fit 4 cards per row */
+  box-sizing: border-box;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Ensure content is evenly spaced */
+  overflow: hidden; /* Ensure the color does not overflow */
+  --border-color: #FF5733; /* Default border color variable */
+  min-height: 200px; /* Ensure a minimum height for consistent card size */
+}
+
+.feature-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, rgba(255, 204, 204, 0) 0%, rgba(255, 204, 204, 1) 100%);
+  z-index: -1;
+  transition: transform 0.3s ease;
+  transform: translateX(-100%);
+}
+
+.feature-card:hover::before {
+  transform: translateX(0);
+}
+
+.feature-card::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, var(--border-color) 100%);
+  z-index: 0; /* Ensure it's behind the content but above the background */
+  transition: transform 0.5s ease;
+  transform: translateX(-100%); /* Start from the left */
+}
+
+.feature-card:hover::after {
+  transform: translateX(0); /* Slide to the right */
+}
+
+.feature-card h4 {
+  font-size: 1.2em;
+  margin: 0; /* Remove default margin */
+  padding-bottom: 5px; /* Reduced padding for spacing */
+  position: relative; /* Ensure text stays above the overlay */
+  z-index: 1;
+  text-align: center; /* Center align the heading */
+}
+
+.feature-card p {
+  font-size: 0.85em;
+  color: #333;
+  margin: 0; /* Remove default margin */
+  padding-top: 5px; /* Reduced padding for spacing */
+  position: relative; /* Ensure text stays above the overlay */
+  z-index: 1;
+  text-align: justify; /* Ensure text is justified */
+  line-height: 1.4; /* Improve readability */
+}
+
+.feature-card:nth-of-type(1) {
+  --border-color: #FF5733; /* Example color */
+}
+
+.feature-card:nth-of-type(2) {
+  --border-color: #33FF57; /* Example color */
+}
+
+.feature-card:nth-of-type(3) {
+  --border-color: #3357FF; /* Example color */
+}
+
+.feature-card:nth-of-type(4) {
+  --border-color: #F3FF33; /* Example color */
+}
+
+.feature-card:nth-of-type(5) {
+  --border-color: #FF33A1; /* Example color */
+}
+
+.feature-card:nth-of-type(6) {
+  --border-color: #8E44AD; /* Example color */
+}
+
+.feature-card:nth-of-type(7) {
+  --border-color: #1ABC9C; /* Example color */
+}
+
+.feature-card:nth-of-type(8) {
+  --border-color: #F39C12; /* Example color */
+}
+
+.feature-card {
+  border-left-color: var(--border-color);
+}

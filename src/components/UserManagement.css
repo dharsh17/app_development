@@ -1,0 +1,49 @@
+/* UserManagement.css */
+
+.user-management {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #f8f9fa;
+  }
+  
+  .logout-button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+  
+  .dashboard-body {
+    display: flex;
+  }
+  
+  .dashboard-sidebar {
+    width: 200px;
+    background-color: #f8f9fa;
+    padding: 1rem;
+  }
+  
+  .dashboard-sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .dashboard-sidebar li {
+    margin-bottom: 1rem;
+  }
+  
+  .dashboard-content {
+    flex: 1;
+    padding: 1rem;
+    padding-top: -100px;
+    padding-bottom: 150px;
+  }
+  

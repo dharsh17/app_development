@@ -1,0 +1,95 @@
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+  padding: 20px; /* Add padding for container */
+  background-image: url("https://images.unsplash.com/photo-1528458909336-e7a0adfed0a5?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGJhY2tncm91bmQlMjBpbWFnZSUyMGZvciUyMGxhcC4uLi5zaW1wbGV8ZW58MHx8MHx8fDA%3D");
+  background-size: cover;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  width: 400px; /* Adjust width as needed */
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+}
+
+.password-input-container {
+  position: relative;
+}
+
+.password-input-container input {
+  padding-right: 30px; /* Add space for the eye icon */
+}
+
+.eye-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px; /* Position the icon inside the input field */
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 18px;
+}
+
+button {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 150px; /* Set a specific width for the button */
+  align-self: center; /* Center button within the form */
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif; /* Replace with your preferred font-family */
+  font-size: 2.5rem; /* Adjust font size as needed */
+  font-weight: 700; /* Bold font weight */
+  color: #333; /* Dark color for contrast */
+  margin-bottom: 20px; /* Space below the heading */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+}
+
+.signup-link {
+  margin-top: 20px; /* Space above the link */
+  text-align: center;
+}
+
+.signup-link a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.signup-link a:hover {
+  text-decoration: underline;
+}
